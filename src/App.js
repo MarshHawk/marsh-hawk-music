@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { createLogger } from 'redux-logger';
 import thunkMiddleware from 'redux-thunk';
 import combinedReducer from './reducers/combinedReducer';
+import Article from './components/article';
 import Header from './components/headerComponent';
 import './App.css';
 
@@ -15,7 +16,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <Header />
-        Hello!
+        <Article />
       </Provider>
     );
   }
