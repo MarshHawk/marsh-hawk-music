@@ -5,6 +5,12 @@ aws-exports.js
 /amplify
 .amplifyrc
 
+#vscode
+.vscode/
+
+#generic config
+config.json
+
 # dependencies
 /node_modules
 /.pnp

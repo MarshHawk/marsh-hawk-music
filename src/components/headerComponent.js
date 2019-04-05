@@ -1,13 +1,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 let Header = () => (
-    <header>
-      <nav className="navbar text-uppercase navbar-expand-md bg-info navbar-dark">
+    <header className="site-header">
+      <nav className="site-nav family-sans navbar text-uppercase navbar-expand-md bg-info navbar-dark">
       <div className="container">
-        <a className="navbar-brand" href="/" >Marsh Hawk Music</a>
+        <a className="navbar-brand" href="/" >
+          <i className="fa fa-music"></i> Marsh Hawk Music</a>
         <div className="navbar-nav">
-            <a className="nav-item nav-link" href="/">Home</a>
+          <a className="nav-item nav-link" href="/">Home</a>
         </div>
       </div>
       </nav>
